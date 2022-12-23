@@ -240,7 +240,7 @@
     <footer class="text-center text-lg-start py-5 text-white">
       <div class="container text-center text-md-start">
         <div class="row justify-content-center m-auto">
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-5">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <a class="navbar-brand text-light" href="#">
               <img src="img/logo2.png" alt="logo-toko-88" width="50" height="30" class="d-inline-block align-text-top" />
               Toko88
@@ -276,22 +276,22 @@
       <div class="container-fluid mt-4 text-white text-center border-top">
         <div class="container mt-4">
           <!-- Twitter -->
-          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="#!" role="button">
+          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="https://twitter.com/ArifCahyaDito3?t=K3csPnrkhECR4MCbRriEpg&s=08" role="button">
             <i class="bi bi-twitter"></i>
           </a>
           <!-- Twitter -->
           <!-- YOUTUBE -->
-          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="#!" role="button">
+          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="https://www.youtube.com/channel/UCUbb_KWpXsd6c7rArZKAZ6Q" role="button">
             <i class="bi bi-youtube"></i>
           </a>
           <!-- YOUTUBE -->
           <!-- WHATSAPP -->
-          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="#!" role="button">
+          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="https://web.whatsapp.com/" role="button">
             <i class="bi bi-whatsapp"></i>
           </a>
           <!-- WHATSAPP -->
           <!-- INSTAGRAM -->
-          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="#!" role="button">
+          <a class="btn sosmed btn-outline-light btn-floating m-1 border rounded-circle" href="https://www.instagram.com/arifcahyadito/" role="button">
             <i class="bi bi-instagram"></i>
           </a>
           <!-- INSTAGRAM -->
@@ -315,17 +315,24 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
+      // INISIALISASI  PENGENAL BUTTON
       var btnSemuPromo = $('#semuaPromoBtn');
       var btnDiskonPromo = $('#diskonPromoBtn');
       var btnBonusPromo = $('#bonusPromoBtn');
+      // INISIALISASI  PENGENAL BUTTON
 
+      // INISIALISASI  PENGENAL PROMO
       var semuaPromoView = $('#semuaPromo');
       var diskonPromoView = $('#promoDiskon');
       var bonusPromoView = $('#promoBonus');
+      // INISIALISASI  PENGENAL PROMO
 
+      // MENYEMBUNIKAN BUTTON PROMO DISKON DAN PROMO BONUS
       diskonPromoView.hide();
       bonusPromoView.hide();
+      // MENYEMBUNIKAN BUTTON PROMO DISKON DAN PROMO BONUS
 
+      // MENGAKTIFKAN  BUTTON SEMUA PROMO
       function showAll() {
         btnBonusPromo.removeClass('active');
         btnDiskonPromo.removeClass('active');
@@ -335,7 +342,9 @@
         bonusPromoView.hide(1000);
         semuaPromoView.show(1000);
       }
+      // MENGAKTIFKAN  BUTTON SEMUA PROMO
 
+      // MENGAKTIFKAN  BUTTON PROMO DISKON
       function showDiskon() {
         btnSemuPromo.removeClass('active');
         btnBonusPromo.removeClass('active');
@@ -345,7 +354,9 @@
         bonusPromoView.hide(1000);
         diskonPromoView.show(1000);
       }
+      // MENGAKTIFKAN  BUTTON PROMO DISKON
 
+      // MENGAKTIFKAN  BUTTON PROMO BONUS
       function showBonus() {
         btnSemuPromo.removeClass('active');
         btnDiskonPromo.removeClass('active');
@@ -355,6 +366,7 @@
         diskonPromoView.hide(1000);
         bonusPromoView.show(1000);
       }
+      // MENGAKTIFKAN  BUTTON PROMO BONUS
     </script>
   </body>
 </html>

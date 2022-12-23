@@ -1,9 +1,7 @@
 * {
   scroll-behavior: smooth;
 }
-body {
-  overflow-x: hidden;
-}
+
 /* NAVBAR */
 .navbar-brand {
   font-family: viga;
@@ -75,10 +73,13 @@ body {
   border-radius: 0;
   width: 150px;
   height: 50px;
-  color: white;
   margin-top: 20px;
   font-size: 16px;
   border-color: #6bbbde;
+}
+.jumbotron .btn a {
+  text-decoration: none;
+  color: white;
 }
 .jumbotron .btn:hover {
   background-color: #6bbbde;
@@ -145,15 +146,17 @@ body {
   background-color: rgba(194, 194, 194, 0.556);
 }
 .tombol {
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 10px;
   background-color: #6bbbde;
   color: white;
+  text-decoration: none;
 }
 .tombol:hover {
   transition: 0.5s ease-in-out;
   opacity: 0.7;
   background-color: #6bbcded5;
+  color: grey;
 }
 /* PROMO */
 
